@@ -213,6 +213,19 @@ ul{margin:0;padding:0;list-style:none}
 .cta h2{font-size:clamp(20px,2.4vw,30px);color:var(--paper)}
 .cta p{color:var(--muted-inv);margin-top:8px;font-size:15px}
 
+/* franchise */
+.franchise-intro{display:grid;grid-template-columns:.9fr 1.1fr;gap:clamp(32px,5vw,72px);align-items:start}
+.franchise-intro h2{font-family:var(--serif);font-weight:400;font-size:clamp(26px,3.5vw,44px);line-height:1.5;margin-top:12px}
+.franchise-intro .lead + .lead{margin-top:14px}
+.franchise-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px}
+.cards--five{grid-template-columns:repeat(5,minmax(0,1fr));gap:14px}
+.cards--five .card{padding:22px 18px}
+.cards--five .card h3{font-size:16px}
+.cards--five .card p{font-size:13px;line-height:1.75}
+@media (max-width:1060px){.cards--five{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media (max-width:900px){.franchise-intro{grid-template-columns:1fr;gap:24px}.cards--five{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:600px){.cards--five{grid-template-columns:1fr}}
+
 /* footer */
 .ft{background:var(--ink);color:var(--muted-inv);padding:54px 0 26px;font-size:14px}
 .ft__grid{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:32px}
