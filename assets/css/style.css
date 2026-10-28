@@ -255,7 +255,7 @@ ul{margin:0;padding:0;list-style:none}
 .store-card__map:hover{color:var(--chili-deep)}
 .store-card__map-frame{position:relative;height:220px;border-bottom:1px solid var(--line-2);background:var(--paper-2)}
 .store-card__map-frame iframe{position:absolute;inset:0;display:block;width:100% !important;max-width:none !important;height:100% !important;border:0;background:var(--paper-2)}
-@media (max-width:520px){.store-card__map-frame{height:200px}}
+@media (max-width:520px){.store-card__map-frame{height:200px}.store-card__info>div.store-card__row--parking,.store-card__info>div.store-card__row--area{display:none}}
 .store-card__info{margin:0;padding:2px 24px}
 .store-card__info>div{display:grid;grid-template-columns:112px minmax(0,1fr);gap:16px;padding:13px 0;border-bottom:1px solid var(--line-2)}
 .store-card__info>div:last-child{border-bottom:0}
